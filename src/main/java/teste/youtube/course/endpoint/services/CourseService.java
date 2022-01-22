@@ -14,7 +14,6 @@ import teste.youtube.course.repository.CourseRepository;
 @RequiredArgsConstructor(onConstructor = @___(@Autowired))
 public class CourseService {
     private final CourseRepository courseRepository;
-
     public Iterable<Course> list(Pageable pageable){
         return courseRepository.findAll(pageable);
     }
