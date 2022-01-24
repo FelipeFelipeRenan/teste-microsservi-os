@@ -2,6 +2,7 @@ package teste.youtube.course.endpoint.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import teste.youtube.core.model.Course;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import teste.youtube.course.endpoint.services.CourseService;
-import teste.youtube.course.model.Course;
+
 
 
 @Slf4j

@@ -1,7 +1,9 @@
-package teste.youtube.course.repository;
+package teste.youtube.core.repository;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
-import teste.youtube.course.model.Course;
+import org.springframework.stereotype.Component;
+import teste.youtube.core.model.Course;
 
+@Component
 public interface CourseRepository extends PagingAndSortingRepository<Course, Long>{
 }

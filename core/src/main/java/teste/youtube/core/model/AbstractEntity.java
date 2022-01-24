@@ -1,4 +1,4 @@
-package teste.youtube.course.model;
+package teste.youtube.core.model;
 
 import java.io.Serializable;
 
